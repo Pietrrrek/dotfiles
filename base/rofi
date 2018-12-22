@@ -1,0 +1,24 @@
+rofi.color-enabled: true
+
+! Window: ‘background’, ‘border’, ‘separator’
+rofi.color-window: #151515, #bf5b69, #bf5b69
+
+! State:           ‘bg’,    ‘fg’,    ‘altbg’, ‘hlbg’,  'hlfg'
+rofi.color-normal: #151515, #ffffff, #151515, #bf5b69, #ffffff
+rofi.color-active: #151515, #252936, #151515, #bf5b69, #ffffff
+rofi.color-urgent: #151515, #ff0000, #151515, #bf5b69, #bf5b69
+
+rofi.width: 30
+rofi.padding: 40
+rofi.opacity: 80
+rofi.border: 2px
+rofi.line-margin: 10
+rofi.lines: 7
+rofi.separator-style: none
+rofi.columns: 3
+rofi.font: Coda 12
+rofi.bw: 4
+rofi.eh: 1
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.auto-select: true
