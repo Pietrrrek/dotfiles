@@ -1,0 +1,64 @@
+! special
+URxvt*foreground:   #888888
+URxvt*background:   #151515
+URxvt*cursorColor:  #888888
+
+! black
+URxvt*color0:       #292929
+URxvt*color8:       #525252
+
+! red
+URxvt*color1:       #cf6a4c
+URxvt*color9:       #ff9d80
+
+! green
+URxvt*color2:       #19cb00
+URxvt*color10:      #23fd00
+
+! yellow
+URxvt*color3:       #fad07a
+URxvt*color11:      #ffefbf
+
+! blue
+URxvt*color4:       #8197bf
+URxvt*color12:      #accaff
+
+! magenta
+URxvt*color5:       #8787af
+URxvt*color13:      #c4c4ff
+
+! cyan
+URxvt*color6:       #668799
+URxvt*color14:      #80bfaf
+
+! white
+URxvt*color7:       #888888
+URxvt*color15:      #e8e8d3
+
+
+
+! font
+URxvt.font: xft:DejaVu Sans Mono:size=14
+! scrollBar
+URxvt*scrollBar: false
+
+! highlight
+URxvt*dynamicColors: on
+
+! misc
+URxvt*buffered: true
+URxvtURxvt*cursorBlink: true
+URxvt*depth: 32
+URxvt*perl-ext-common: default,matcher,font-size,fullscreen,vtwheel,keyboard-select
+URxvt*urlLauncher: firefox
+URxvt*matcher*button: 1
+
+! transparency
+URxvt*transparent: true
+URxvt*shading: 15
+
+! font-size inc/dec/reset
+URxvt*keysym*C-Up:     perl:font-size:increase
+URxvt*keysym*C-Down:   perl:font-size:decrease
+URxvt*keysym*C-0:      perl:font-size:reset
+URxvt*internalBorder:  25
