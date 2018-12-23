@@ -1,3 +1,14 @@
+## Clean
+![Clean Desktop](pics/clean.png)
+
+## VS code, Rofi, URxvt
+![VS code, Rofi, URxvt](pics/code_term_rofi.png)
+
+## Browser, neofetch, htop
+![Browser, neofetch, htop](pics/browser_neo_htop.png)
+
+
+
 ## Base and Lenv
 There are currently two directories `base` and `Lenv` because I constantly switch between using my desktop and laptop I decided to create a directory for each config even though they don't vary widely (are mostly identical in fact). The Desktop version is used on a 23" monitor while the laptop one is used at 14". 
 
