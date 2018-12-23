@@ -3,10 +3,10 @@
 
 ## VS code, Rofi, URxvt
 ![VS code, Rofi, URxvt](pics/code_term_rofi.png)
+Visual Studio Code theme: Ayu Dark
 
 ## Browser, neofetch, htop
 ![Browser, neofetch, htop](pics/browser_neo_htop.png)
-
 
 
 ## Base and Lenv
@@ -21,10 +21,8 @@ There are currently two directories `base` and `Lenv` because I constantly switc
 	- `Path: ~/.config/i3/config`
 
  - `comtpon.conf`:
-	This file is used by the compositioner compton and should be placed in ~/.config/compton.conf, 
-	at this point the file is very short and simply sets the backend. The whole purpose of compton is to
-	enable transparency and remove screentearing from i3. 
-
+	This file is used by the compositioner compton and should be placed in ~/.config/compton.conf.
+	Removes screen tearing from i3 and adds transparency.
 	- `Path: ~/.config/compton.conf`
     
 - `rofi`:
