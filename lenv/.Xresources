@@ -1,40 +1,45 @@
 ! special
-URxvt*foreground:   #888888
-URxvt*background:   #151515
-URxvt*cursorColor:  #888888
+URxvt*foreground:   #c3c5c7
+URxvt*background:   #0f191f
+URxvt*cursorColor:  #c3c5c7
 
 ! black
-URxvt*color0:       #292929
-URxvt*color8:       #525252
+URxvt*color0:       #0f191f
+URxvt*color8:       #4b5257
 
 ! red
-URxvt*color1:       #cf6a4c
-URxvt*color9:       #ff9d80
+URxvt*color1:       #b0a49f
+URxvt*color9:       #b0a49f
 
 ! green
-URxvt*color2:       #19cb00
-URxvt*color10:      #23fd00
+URxvt*color2:       #2a79aa
+URxvt*color10:      #2a79aa
 
 ! yellow
-URxvt*color3:       #fad07a
-URxvt*color11:      #ffefbf
+URxvt*color3:       #91a0a9
+URxvt*color11:      #91a0a9
 
 ! blue
-URxvt*color4:       #8197bf
-URxvt*color12:      #accaff
+URxvt*color4:       #6285aa
+URxvt*color12:      #6285aa
 
 ! magenta
-URxvt*color5:       #8787af
-URxvt*color13:      #c4c4ff
+URxvt*color5:       #af8189
+URxvt*color13:      #af8189
 
 ! cyan
-URxvt*color6:       #668799
-URxvt*color14:      #80bfaf
+URxvt*color6:       #bb616c
+URxvt*color14:      #bb616c
 
 ! white
-URxvt*color7:       #888888
-URxvt*color15:      #e8e8d3
+URxvt*color7:       #c3c5c7
+URxvt*color15:      #c3c5c7
 
+URxvt*borderColor:  [100]#0e2b3f
+
+
+! Black color that will not be affected by bold highlighting.
+URxvt*color66:      #0f191f
 
 
 ! font
@@ -54,8 +59,8 @@ URxvt*urlLauncher: firefox
 URxvt*matcher*button: 1
 
 ! transparency
-URxvt*transparent: true
-URxvt*shading: 15
+! URxvt*transparent: true
+! URxvt*shading: 15
 
 ! font-size inc/dec/reset
 URxvt*keysym*C-Up:     perl:font-size:increase
