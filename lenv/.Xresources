@@ -35,7 +35,7 @@ URxvt*color14:      #bb616c
 URxvt*color7:       #c3c5c7
 URxvt*color15:      #c3c5c7
 
-URxvt*borderColor:  [100]#0e2b3f
+URxvt*borderColor: #0f191f
 
 
 ! Black color that will not be affected by bold highlighting.
