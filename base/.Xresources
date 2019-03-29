@@ -38,7 +38,7 @@ URxvt*color15:      #e8e8d3
 
 
 ! font
-!URxvt.font: xft:DejaVu Sans Mono:size=11 
+URxvt.font: xft:DejaVu Sans Mono for Powerline:size=11 
 ! scrollBar
 URxvt*scrollBar: false
 
